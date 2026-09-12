@@ -1,0 +1,28 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Local data & outputs (keep directory placeholders)
+data/ticks/*.csv
+!data/ticks/.gitkeep
+data/ohlc/*.csv
+!data/ohlc/.gitkeep
+output/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
