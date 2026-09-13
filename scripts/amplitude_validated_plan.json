@@ -1,0 +1,56 @@
+{
+  "windows": {
+    "10": [
+      {
+        "search_type": "ohlc-joint",
+        "predict": [
+          "gaussian",
+          "mode",
+          "soft",
+          "margin",
+          "median",
+          "quantile-75"
+        ]
+      },
+      {
+        "search_type": "candle-shape",
+        "predict": [
+          "distance-weighted",
+          "mean-weighted"
+        ]
+      }
+    ],
+    "20": [
+      {
+        "search_type": "spearman",
+        "predict": [
+          "mode",
+          "softmax",
+          "rank-weighted",
+          "distance-weighted",
+          "mean-weighted",
+          "gaussian"
+        ]
+      }
+    ],
+    "30": [
+      {
+        "search_type": "candle-shape",
+        "predict": [
+          "quantile-75",
+          "mean",
+          "signed-score"
+        ]
+      }
+    ],
+    "40": [
+      {
+        "search_type": "candle-shape",
+        "predict": [
+          "mean",
+          "signed-score"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "windows": {
+    "10": [
+      {
+        "search_type": "ohlc-joint",
+        "predict": ["gaussian-mean", "trimmed-mean"]
+      }
+    ],
+    "40": [
+      {
+        "search_type": "pearson",
+        "predict": ["rank-mean-weighted"]
+      },
+      {
+        "search_type": "z-euclidean",
+        "predict": ["rank-mean-weighted"]
+      }
+    ]
+  }
+}
